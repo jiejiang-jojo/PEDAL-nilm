@@ -1,0 +1,15 @@
+{
+    "model": "WaveNet",
+    "model_params": {
+      "layers":7,
+      "skip_channels": 32
+    },
+    "batch_size": 128,
+    "width": 100,
+    "validate_max_iteration": 2000,
+    "target_device": "kettle",
+    "train_house_list": ["house2","house3","house4","house5","house6","house7"],
+    "validate_house_list": ["house8","house9","house13"],
+    "inference_model":"20241015_205156-ps-1671423_kettle_WaveNet_iter_158000_wd_100_sl_255.tar",
+    "model_threshold":null
+  } 
