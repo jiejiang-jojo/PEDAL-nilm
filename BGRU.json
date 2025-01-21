@@ -1,0 +1,14 @@
+{
+    "model": "BGRU",
+    "model_params": {
+      "seq_len":63
+    },
+    "batch_size": 128,
+    "width": 100,
+    "validate_max_iteration": 2000,
+    "target_device": "kettle",
+    "train_house_list": ["house2","house3","house4","house5","house6","house7"],
+    "validate_house_list": ["house8","house9","house13"],
+    "inference_model":"20241224_143058-ps-466518_kettle_BGRU_iter_223000_wd_100_sl_63.tar",
+    "model_threshold":null
+  } 
