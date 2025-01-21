@@ -1,0 +1,19 @@
+{
+    "model": "bert",
+    "model_params": {
+      "seq_len":63
+    },
+    "batch_size": 64,
+    "width": 100,
+    "validate_max_iteration": 2000,
+    "target_device": "kettle",
+    "train_house_list": ["house2","house3","house4","house5","house6","house7"],
+    "validate_house_list": ["house8","house9","house13"],
+    "inference_house":"house20",
+    "inference_model":"20241219_203423-ps-330408_kettle_bert_iter_470000_wd_100_sl_63.tar",
+    "model_threshold":null,
+    "balance_threshold": 20,
+    "balance_positive": 0.2,
+    "data_file": "data.h5",
+    "probability_path":"path"
+  } 
