@@ -1,0 +1,21 @@
+{
+    "model": "bert",
+    "model_params": {
+      "seq_len":63
+    },
+    "batch_size": 64,
+    "width": 100,
+    "validate_max_iteration": 2000,
+    "target_device": "washingmachine",
+    "train_house_list": ["house1","house2","house3","house5","house6","house7","house8","house9","house10","house13"],
+    "validate_house_list": ["house15","house16","house17"],
+    "inference_model":"20241220_094736-ps-342959_washingmachine_bert_iter_163000_wd_100_sl_63.tar",
+    "inference_house":"house20",
+    "model_threshold":0.3,
+    "binary_threshold":20,
+    "eval_binary_threshold":0.3,
+    "wind_seq_len":60,
+    "min_len":180,
+    "cutoff_threshold":20
+  
+  } 
